@@ -1,0 +1,502 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+.navbar{
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+.navbar,
+.nav-list,
+.home,
+.skills,
+.project-content, .achievements-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  gap: 50px;
+  font-size: 20px;
+}
+
+.nav-list li a {
+  color: black;
+  font-family: sans-serif;
+}
+
+.nav-list li a:hover {
+  color: #55198b;
+  font-weight: 600;
+  background: rgb(219, 214, 214);
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(218, 216, 216);
+}
+
+.navbar {
+  padding: 30px 0;
+  /* position:fixed ; */
+  /* overflow: hidden; */
+}
+
+.navbar h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#home {
+  padding: 100px;
+  gap: 80px;
+}
+
+.home container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-img .img{
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #aaa5ff;
+  
+}
+
+.home-content {
+  line-height: 120px;
+}
+
+.home h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.home-para {
+  line-height: 24px;
+  font-size: 24px;
+  text-align: justify;
+  color: gray;
+  line-height: 30px;
+}
+
+.home-icon {
+  font-size: 40px;
+  color: white;
+}
+
+.home-icon .icon {
+  background: #000;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.home-icon .icon:hover {
+  background: #fff;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px #aaa5ff;
+}
+
+.home-icon .linkd {
+  background: #0077b5;
+}
+
+.home-icon .fb {
+  background: #3b5998;
+}
+
+.home-icon .yt {
+  background: #ff0000;
+}
+
+.home-icon .insta {
+  background: #e1306c;
+}
+
+.home-icon .twitter {
+  background: #1da1f2;
+}
+
+.home-icon .github {
+  background: #333;
+}
+
+.home-btns {
+  margin-top: 30px;
+}
+.home-btns .button {
+  padding: 20px 40px;
+  background: #55198b;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+
+  border-style: none;
+  margin-left: 20px;
+}
+
+.home-btns .button:hover {
+  background: #fff;
+  color: #55198b;
+  border: 2px solid #55198b;
+  box-shadow:0 0 10px #9162bb;
+}
+
+.skills {
+  padding: 100px;
+  gap: 80px;
+}
+
+.skills-content h2 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.skills-content p {
+  font-size: 20px;
+  color: gray;
+  line-height: 30px;
+}
+
+.skills-content {
+  line-height: 116px;
+  /* margin-right: 200px; */
+}
+
+.skills-icons-1 {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.skills-icons-2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-icons .icon {
+  font-size: 60px;
+  color: gray;
+  margin-right: 20px;
+}
+
+.skills-icons .icon:hover {
+  color: rgb(168, 168, 249);
+}
+
+.skills-icons p {
+  font-size: 10px;
+  color: gray;
+  /* line-height: 30px; */
+  /* margin-top: 20px; */
+}
+
+.skills-para {
+  font-size: 20px;
+  /* color: gray; */
+  /* line-height: 30px; */
+
+  margin-top: 40px;
+}
+
+.proficiency {
+  padding: 80px;
+  line-height: 100px;
+}
+
+.proficiency .upper-div {
+  background: #f3efef;
+  /* overflow: hidden; */
+  width: 100%;
+  /* padding: 10px; */
+  border-radius: 40px;
+}
+
+.proficiency .lower-div-1 {
+  background: #aaa5ff;
+  overflow: hidden;
+  width: 80%;
+  padding: 12px;
+  border-radius: 20px 10px 10px 20px;
+}
+
+.proficiency .lower-div-2 {
+  background: #aaa5ff;
+  overflow: hidden;
+  width: 60%;
+  padding: 12px;
+  border-radius: 20px 10px 10px 20px;
+}
+
+.proficiency .lower-div-3 {
+  background: #aaa5ff;
+  overflow: hidden;
+  width: 50%;
+  padding: 12px;
+  border-radius: 20px 10px 10px 20px;
+}
+
+.proficiency h2 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.proficiency h3 {
+  font-size: 24px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.education {
+  padding: 100px;
+}
+.education-content {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 80px;
+  gap: 80px;
+  border-bottom: gray 2px solid;
+  padding-bottom: 60px;
+  margin-bottom: 40px;
+}
+
+.education h2 {
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.education h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.education h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.education h5 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.education .education-heading {
+  line-height: 40px;
+}
+
+.education-content .education-list li {
+  list-style-type: circle;
+  margin-left: 40px;
+  color: gray;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+/* .education .education-aktu-img{
+  border-radius: 50%;
+
+}
+.education .education-aktu-img .aktu-img{
+  box-shadow: 0 0 20px #aaa5ff;
+ 
+} */
+
+.project {
+  padding: 100px;
+}
+.project h2 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.project-content {
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.project-content .project-list {
+  /* border: gray 2px solid; */
+  padding: 50px;
+  flex: 1;
+  text-align: justify;
+  height: 140px;
+  /* width: 60px; */
+  box-shadow: 0 0 10px #b1adf7;
+  border-radius: 10px;
+  
+}
+
+.project-content .project-list h3{
+  font-size: 32px;
+  font-weight: 200;
+  text-align: center;
+}
+
+
+
+.project-content .project-list p{
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.project-content .project-list:hover{
+  box-shadow: 0 0 30px #9590f6;
+}
+
+.project-btn{
+  /* align-items: center; */
+  margin-left: 540px;
+}
+.achievements{
+  padding: 100px;
+}
+
+.achievements h2 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.achievements p{
+  font-size: 20px;
+  color: gray;
+  line-height: 30px;
+}
+.achievements-content {
+  margin-top: 40px;
+  gap: 40px;
+}
+.achievements-content .achievements-list {
+  /* border: gray 2px solid; */
+  padding: 40px;
+  flex: 1;
+  text-align: justify;
+  height: 420px;
+  /* width: 60px; */
+  box-shadow: 0 0 10px gainsboro;
+  border-radius: 10px;
+  
+}
+
+.achievements-content .achievements-list img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.achievements-content .achievements-list h3{
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.achievements-content .achievements-list p{
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 20px;
+}
+.achievements-content .achievements-list:hover{
+  box-shadow: 0 0 30px rgb(177, 176, 176);
+}
+
+.achievements-btn{
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+.achievements-btn .button {
+  padding: 10px 20px;
+  background: #55198b;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+
+  border-style: none;
+  margin-left: 20px;
+}
+
+.footer {
+  padding: 100px;
+  line-height: 60px;
+}
+
+.footer h2 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.footer p{
+  font-size: 24px;
+  color: gray;
+  /* line-height: 30px; */
+}
+.footer h3{
+  font-size: 30px;
+  font-weight: 500;
+  /* color: gray; */
+}
+
+.footer .footer-para{
+  text-align: center;
+  font-weight: 600;
+}
+
+/* ✅ Media query for iPad Mini (portrait and landscape) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 1000px;
+  }
+  
+  .home, .skills, .education, .project, .achievements, .footer {
+    padding: 50px; /* reduce padding */
+  }
+
+  .home h1, .skills-content h2, .proficiency h2, .education h2, .project h2, .achievements h2, .footer h2 {
+    font-size: 40px; /* reduce font size for headings */
+  }
+
+  .nav-list {
+    gap: 30px; /* narrower nav gap */
+    font-size: 18px; /* slightly smaller nav font */
+  }
+
+  .home-content {
+    line-height: 80px; /* reduce line height */
+  }
+
+  .skills-icons .icon {
+    font-size: 40px; /* reduce icon size */
+  }
+
+  .achievements-content .achievements-list img {
+    width: 140px;
+    height: 140px;
+    margin-left: 30px;
+  }
+}
